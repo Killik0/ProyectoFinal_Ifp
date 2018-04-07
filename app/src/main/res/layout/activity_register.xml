@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.xavi_example.proyectofinal_ifp.ActivityRegister">
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/second"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/etNom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etApe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etNom"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="@string/apellido1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etApe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etApe1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="@string/apellido2"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etPais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etApe2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="@string/pais"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etNick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etPais"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="@string/nick"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etNick"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="@string/password"
+                android:password="true"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etPass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:ems="10"
+                android:hint="@string/email"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/btEntrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etMail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/acceder" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+

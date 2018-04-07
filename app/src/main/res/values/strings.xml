@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ProyectoFinal_Ifp</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido1">Apellido1</string>
+    <string name="apellido2">Apellido2</string>
+    <string name="acceder">ACCEDER</string>
+    <string name="nick">Nick</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="pais">Pais</string>
 </resources>
