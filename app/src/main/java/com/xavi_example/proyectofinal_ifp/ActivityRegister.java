@@ -2,8 +2,10 @@ package com.xavi_example.proyectofinal_ifp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class ActivityRegister extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
